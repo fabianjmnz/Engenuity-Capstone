@@ -1,0 +1,12 @@
+
+#footer{
+  display: inline-flex;
+  flex-direction: column;
+  padding:2rem;
+  width:100vw;
+  background-color: rgb(14, 74, 138);
+  background-image: linear-gradient(rgb(0,95,191),rgb(44,90,138));
+}
+#phone-number,#email{
+  width:250px;
+}
