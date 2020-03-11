@@ -28,7 +28,7 @@ export const MenuItem = ({ i,toggle }:any) => {
     <motion.li
       id="each-item"
       variants={variants}
-      whileHover={{ scale: 1.5 }}
+      whileHover={{ scale: 1.6 }}
       whileTap={{ scale: 0.95}}
     >
       <div className="icon-placeholder" ></div>

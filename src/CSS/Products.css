@@ -1,6 +1,11 @@
 body{
-  background: linear-gradient(45deg, rgb(0,95,191), rgb(166, 166, 166)) !important; 
   height:auto;
+  background: whitesmoke !important;
+}
+.block{
+  background: whitesmoke;
+  margin: 0 1rem;
+
 }
 .title{
   font-size: 4rem;
@@ -32,24 +37,25 @@ body{
   margin:0 20px 0 0;
 }
 .product-detail-header{
-  font-size: 2rem;
+  font-size: 3rem;
   padding:80px 0 0 3vw;
 }
 .detail{
   width:80vw;
   margin: 30px auto;
   line-height: 3rem;
+  font-size: 1.5rem;
 }
 .benefit-header{
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
-  padding: 160px 0 40px 0;
+  padding: 100px 0 60px 0;
 }
 p{
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 p:last-child{
-  padding:0 0 30px 0;
+  padding:0 0 150px 0;
 
 }

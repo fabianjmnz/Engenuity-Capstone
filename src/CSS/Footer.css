@@ -1,12 +1,48 @@
 
 #footer{
+  position: relative;
   display: inline-flex;
-  flex-direction: column;
-  padding:2rem;
+  justify-content: space-around;
+  align-items: center;
+  
   width:100vw;
-  background-color: rgb(14, 74, 138);
-  background-image: linear-gradient(rgb(0,95,191),rgb(44,90,138));
+  height:100px;
+  background-color: rgb(44, 90, 138);
+  
+ 
+  /* background-image: linear-gradient(rgb(0,95,191),rgb(44,90,138)); */
 }
-#phone-number,#email{
+#phone-number{
   width:250px;
+  height:90px;
+}
+#email{
+width:250px;
+height:80px;
+}
+#address{
+  width:250px;
+}
+#phone-email{
+  display: flex;
+  flex-direction: column;
+}
+#phone-mobile{
+  position: absolute;
+  top:10px;
+  left:0;
+height: 50px;
+}
+#email-mobile{
+  position: absolute;
+  top:55px;
+  left:10px;
+height: 40px;
+}
+#address-mobile{
+  position: absolute;
+  top:10px;
+  right:0px;
+ width: 170px;
+ height:55px;
 }

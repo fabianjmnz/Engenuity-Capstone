@@ -4,8 +4,8 @@ body{
 #home{
   position: absolute;
   padding:20px 15px  !important;
-  top: 1.2rem;
-  left: 3rem;
+  top: 10px;
+  left: 2.5rem;
   font-size: 2rem;
   color:rgb(166, 166, 166);
 }
@@ -22,12 +22,25 @@ body{
 }
 #company-name{
   font-size: 50px;
-  line-height: 3rem;
+  line-height: 1.8rem;
+  color:white;
 }
 #slogan{
   font-size: 25px;
-  line-height: 2.5rem;
+  line-height: 3.5rem;
   text-align: center;
+  color:white;
+}
+#small-company-name{
+  font-size: 25px;
+  line-height: 1.2rem;
+  color:white;
+}
+#small-slogan{
+  font-size: 13px;
+  line-height: 2rem;
+  text-align: center;
+  color:white;
 }
 /* #menu-icon{
   display:inline-flex;

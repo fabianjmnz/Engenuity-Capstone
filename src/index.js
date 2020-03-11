@@ -24,7 +24,7 @@ ReactDOM.render(
       <Route exact path = "/ezvision" component = {Vision}/>
       <Route exact path = "/ezvalve" component = {Valve}/>
       <Route exact path = "/support" component = {Support}/>
-      <Route exact path = "/calculator" component = {SemanticCal}/>
+  <Route exact path = "/calculator" component = {SemanticCal}/>
     </Switch>
   </BaseLayout> 
 </BrowserRouter>

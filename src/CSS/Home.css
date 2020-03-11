@@ -1,8 +1,73 @@
 .we-are{
   width:70%;
   margin: 150px auto;
+  line-height: 2.8rem;
+  font-size: 1.2rem;
 }
 #main-pic{
   width:100vw;
   height:100vh;
+}
+#all-products{
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#all-products div{
+  margin: 5rem 3rem;
+}
+.ez{
+  position: relative;
+  border: 1px solid black;;
+  width:350px;
+  height:350px;
+  border-radius: 2rem;
+  text-align: center;
+  transition: all .5s;
+}
+.ez:hover{
+  transform: scale(1.1);
+  
+}
+.pic-chart{
+ position: absolute;
+ top:10px;
+ left:120px;
+}
+.pic-test{
+  position: absolute;
+ top:10px;
+ left:140px;
+}
+.pic-vision{
+  position: absolute;
+ top:40px;
+ left:160px;
+}
+.pic-valve{
+  position: absolute;
+ top:40px;
+ left:170px;
+}
+.name1{
+  position: absolute;
+  top: -10px;
+  font-size: 2.5rem;
+}
+.name2{
+  position: absolute;
+  top: 30px;
+  font-size: 2.5rem;
+}
+.continue{
+  position: absolute;
+  top:120px;
+  left:10px;
+  font-size: 1.2rem;
+}
+
+.brief-description{
+  position: absolute;
+  top:190px;
+  line-height: 1.7rem;
 }

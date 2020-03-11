@@ -1,6 +1,7 @@
 import * as React from "react";
 import { motion } from "framer-motion";
 import { MenuItem } from "./MenuItem";
+import { Breakpoint } from 'react-socks'
 
 
 
@@ -14,18 +15,24 @@ const variants = {
 };
 
 export const Navigation = ({toggle}:any) => (
-  <motion.ul id="menu-list" variants={variants}>
-    
-    {itemIds.map(i => (
-     
-      <MenuItem i={i} key={i} toggle={toggle} >
-          
-        </MenuItem>
+  <>
+  <Breakpoint customQuery="(max-width:600px)">
+    <motion.ul id="menu-list-mobile" variants={variants}>   
+      {itemIds.map(i => (
       
-    
-    
-    ))}
-  </motion.ul>
+        <MenuItem i={i} key={i} toggle={toggle}/> 
+      ))}
+    </motion.ul>
+  </Breakpoint>
+  <Breakpoint customQuery="(min-width:601px)">
+    <motion.ul id="menu-list" variants={variants}>   
+      {itemIds.map(i => (
+      
+        <MenuItem i={i} key={i} toggle={toggle}/> 
+      ))}
+    </motion.ul>
+  </Breakpoint>
+  </>
 );
 
 const itemIds = [0, 1, 2, 3,4,5];
